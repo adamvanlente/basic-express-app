@@ -1,28 +1,7 @@
-Structure
+A basic express app created for quick cloning.
 
-  Index
-    - Where a user can see feeds.  Will populate with welcome screen, twitter, blogs or starred items
+    app: holds mongoose models and routes.
 
-  Login
-    - User login screen
+    src: holds the original sass and js, which is compiled/minified by grunt.
 
-  Signup
-    - User signup screen
-
-
-  // Yet to create
-
-  About
-    - About me and the page, links
-
-  Suggestions
-
-    -
-
-
-  // Left menu
-  - latest tweets
-  - blog posts
-  - starred items
-  - suggestions
-  - about jspro
+    view: holds the jade views used by routes.
