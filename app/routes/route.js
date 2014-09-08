@@ -1,5 +1,5 @@
 // ******************************************
-// Main route handler for JSPRO.
+// Main route handler.
 // __________________________________________
 
 module.exports = function(app, passport) {
@@ -12,7 +12,7 @@ module.exports = function(app, passport) {
 
 			// Render something to a jade template.
 			// res.render('index.jade', { user : req.user });
-			
+
 	});
 
 };
